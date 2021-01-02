@@ -22,7 +22,7 @@ html{
 
 /* Navigation Bar:Logo And Images */
 #logo{
-    margin:10px 34px ;
+    margin:5px;
 }
 #logo img{
     height:90px ;
@@ -37,15 +37,16 @@ html{
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai 2', cursive;
+    /* margin-bottom: 33px; */
 }
 #navbar::before{
   content: "";
-  background-color: black;
+  background-color: #0c1b1f;
   position: absolute;
-  top: 0px;
+  top: 6px;
   left: 0px;
-  height: 100%;
-  width: 100%;
+  height: 85%;
+  width: 50%;
   z-index: -1;
   opacity:0.7;
 }
